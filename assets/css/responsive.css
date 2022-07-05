@@ -1,7 +1,9 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
+    .header-area .header-bottom img {
+        min-width: 585px;
+    }
 
 }
 
@@ -13,6 +15,11 @@
         display: none;
     }
 
+    .header-area .header-bottom img {
+        min-width: 484px;
+    }
+    
+
 }
 
  
@@ -21,6 +28,11 @@
 
     .header-top{
         display: none;
+    }
+
+    .header-area .header-bottom img {
+        display: none;
+        visibility: hidden;
     }
 
 }
@@ -32,11 +44,20 @@
     .header-top{
         display: none;
     }
+    .header-area .header-bottom img {
+        display: none;
+        visibility: hidden;
+    }    
  
 }
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+
+    .container {width:450px}
+
+    .header-area .header-bottom img {
+        display: none;
+        visibility: hidden;
+    } 
 }
