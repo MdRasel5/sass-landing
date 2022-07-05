@@ -56,25 +56,41 @@ l {
     padding: 0;
     list-style: none; }
   
-  a:hover,
-  a:focus {
+a:hover,
+a:focus {
     text-decoration: none;
-    outline: none; }
-  
-  input:focus,
-  textarea:focus,
-  select:focus,
-  button:focus,
-  .slick-slide {
-    outline: none; }
-  
-  button {
-    cursor: pointer; }
-  
-  img {
+    outline: none; 
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
     width: 100%;
     height: auto;
-    display: block; }
+    display: block; 
+}
+.stoke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #29da77;
+    opacity: 0.5;
+}
+.green{
+   color: #29da77;
+}
+.item-bounce{
+    animation: bounce 3s infinite ease-in-out;
+}
 /*---------------------------------------
     2.0 Header Area
 -----------------------------------------*/
@@ -128,6 +144,7 @@ l {
 }
 .header-area .header-bottom img{
     width: auto;
+
 }
 .header-area .header-bottom form {
     position: relative;
