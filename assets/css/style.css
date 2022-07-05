@@ -1,0 +1,182 @@
+/*---------------------------------------
+    Theme Name: 
+    Theme URI: 
+    Description: 
+    Author Name: 
+    Author URI: 
+    Version: 
+    Tags:
+    License:
+    License URI:
+    Text Domain:
+-----------------------------------------
+    Table of contents
+-----------------------------------------
+    1.0 Common CSS
+    2.0 Header Area
+    3.0 
+        
+/*---------------------------------------
+    1.0 Common CSS
+-----------------------------------------*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.common-btn{
+    color: #fff;
+    background-color: #29da77;
+    border: 1px solid #29da77;
+    padding: 14px 24px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.common-btn:hover{
+    color: #29da77;
+    background-color: #fff;
+}
+.v-middle{
+    align-items: center;
+}
+l {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    outline: none; }
+  
+  input:focus,
+  textarea:focus,
+  select:focus,
+  button:focus,
+  .slick-slide {
+    outline: none; }
+  
+  button {
+    cursor: pointer; }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block; }
+/*---------------------------------------
+    2.0 Header Area
+-----------------------------------------*/
+.header-area{
+    padding-top: 50px;
+    background-color: #f3f7ff;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-area .header-top{
+    margin-bottom: 50px;
+}
+.header-area .header-top .logo img{
+    width: auto;
+}
+
+.header-area .header-top .main-menu ul li{
+    display: inline-block;
+    margin-left: 45px;
+}
+.header-area .header-top .main-menu ul li a{
+    color: #a9abb2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 70px;
+}
+.header-area .header-top .main-menu ul li a:hover, 
+.header-area .header-top .main-menu ul li .active{
+    color: #151e3c;
+}
+
+.header-area .header-top .header-right{
+    display: flex;
+    align-items: center;
+}
+.header-area .header-top .header-right .header-right-button{
+    margin-left: 85px;
+}
+.header-area .header-bottom h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #2e374f;
+    margin-bottom: 40px;
+}
+.header-area .header-bottom p{
+    font-size: 16px;
+    color: #2b2e35;
+    margin-bottom: 40px;
+}
+.header-area .header-bottom img{
+    width: auto;
+}
+.header-area .header-bottom form {
+    position: relative;
+}
+.header-area .header-bottom form input[type=email]{
+    padding: 25px;
+    color: #91949a;
+    font-size: 14px;
+    border: 1px solid #e5e5e7;
+    min-width: 550px;
+    border-radius: 5px;
+}
+.header-area .header-bottom form input[type=submit]{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
